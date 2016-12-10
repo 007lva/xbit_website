@@ -15,5 +15,9 @@ module.exports = {
         require('autoprefixer')(['last 8 versions'])
       ]
     }
+  },
+
+  server: {
+    hostname: '0.0.0.0'
   }
 };
